@@ -20,8 +20,12 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
-  
-  .description{
+  .flex {
+    display: flex;
+  }
+
+  .description
+  {
     white-space: pre-wrap;
   }
   
@@ -30,7 +34,7 @@ body {
     border-radius: 15px;
   }
   
-  .test {
+  .row {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;;
@@ -70,5 +74,11 @@ body {
     transition: all .3s ease-in-out;
   }
 
-  
 
+  .btn {
+    background-color: #06AED5;
+    border-left: 1px solid black;
+    border-top-right-radius:  15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+  }
