@@ -31,3 +31,18 @@ function setColor(element, color) {
     element.style.backgroundColor = color;
     console.log(setColor)
 }
+
+// credit: https://codepen.io/mmousawy/pen/LedZPa
+
+// localStorage
+
+var inputText = document.querySelector('.textarea');
+var saveBtn = document.getElementById('btn')
+
+saveBtn.addEventListener('click', updateOutput);
+
+inputText.textContent = localStorage.getItem('content')
+
+function updateOutput() {
+    localStorage.setItem('content', inputText.value);
+}
