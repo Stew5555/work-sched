@@ -36,13 +36,16 @@ function setColor(element, color) {
 
 // localStorage
 
-var inputText = document.querySelector('.textarea');
+var inputText = document.getElementById('textarea');
 var saveBtn = document.getElementById('btn')
 
-saveBtn.addEventListener('click', updateOutput);
+saveBtn.addEventListener('click', updateOutput);{
 
 inputText.textContent = localStorage.getItem('content')
-
-function updateOutput() {
-    localStorage.setItem('content', inputText.value);
 }
+function updateOutput() {
+  
+    localStorage.setItem('content', inputText.value);
+    
+}
+
