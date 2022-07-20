@@ -10,4 +10,4 @@ And it also lets you see hours that passed with the grew colors, and the current
 
 
 
-![](../../../../Desktop/Screen%20Shot%202022-07-19%20at%204.02.09%20PM%20(2).png)
+![Alt text](../../../../Desktop/Screen%20Shot%202022-07-19%20at%204.02.09%20PM%20(2).png)
